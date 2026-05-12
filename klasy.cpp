@@ -1,34 +1,73 @@
 #include "klasy.h"
 #include <fstream>
-#include <iostream>
+#include <sstream>
+#include <iomanip>
+
+using namespace std;
+
+//  HASZ
+string User::hashPassword(string p) {
+    stringstream ss;
+    for (char c : p) {
+        ss << hex << setw(2) << setfill('0') << (int)(c ^ 0x5A);
+    }
+    hash<string> bezpiecznyHasz;
+    ss << hex << bezpiecznyHasz(p);
+    return ss.str();
+}
 
 // USER
+
 void User::registerUser(string u, string p) {
     username = u;
-    password = p;
+    passwordHash = hashPassword(p); 
 }
 
 bool User::login(string u, string p) {
-    return (u == username && p == password);
+    return (username == u && passwordHash == hashPassword(p));
 }
 
-// PASSWORD MANAGER
+// PASSWORDMANAGER 
+
 void PasswordManager::add(string service, string login, string password) {
-    entries.push_back(service + ";" + login + ";" + password);
+
+    string entry = service + " " + login + " " + password;
+    entries.push_back(entry);
 }
 
 void PasswordManager::save(string filename) {
     ofstream file(filename);
-    for (auto &e : entries) file << e << endl;
+    if (file.is_open()) {
+        for (string entry : entries) {
+            file << entry << "\n";
+        }
+        file.close();
+    }
 }
 
 void PasswordManager::load(string filename) {
-    entries.clear();
     ifstream file(filename);
-    string line;
-    while (getline(file, line)) entries.push_back(line);
+    if (file.is_open()) {
+        entries.clear();
+        string line;
+        while (getline(file, line)) {
+            entries.push_back(line);
+        }
+        file.close();
+    }
 }
 
 int PasswordManager::getSize() {
     return entries.size();
+}
+
+void PasswordManager::show() {
+    if (entries.empty()) {
+        cout << "Brak zapisanych haseł." << endl;
+        return;
+    }
+    cout << "HASLA" << endl;
+    for (int i = 0; i < entries.size(); i++) {
+        cout << i + 1 << ". " << entries[i] << endl;
+    }
 }
