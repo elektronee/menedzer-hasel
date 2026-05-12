@@ -7,7 +7,7 @@ class User {
 private:
     string username;
     string passwordHash; 
-    string hashPassword(string p); 
+    string hashPassword(string u, string p); 
 public:
     void registerUser(string u, string p);
     bool login(string u, string p);
