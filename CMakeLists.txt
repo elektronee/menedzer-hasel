@@ -3,6 +3,8 @@ project(ManagerHasel)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+enable_testing()
+
 add_library(ManagerHaselLib klasy.cpp klasy.h)
 add_executable(ManagerHasel main.cpp)
 target_link_libraries(ManagerHasel ManagerHaselLib)
