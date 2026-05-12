@@ -48,7 +48,7 @@ TEST(PasswordManagerTest, WyswietlaniePustejListy) {
 // TEST 5: sprawdzanie wypisywania haseł do konsoli (z elementami)
 TEST(PasswordManagerTest, WyswietlanieZapisanychHasel) {
     PasswordManager pm;
-    pm.add("GitiHub", "programista", "mojeHaslo");
+    pm.add("GitHub", "programista", "mojeHaslo");
     pm.add("Spotify", "muzyk", "superMuza");
     testing::internal::CaptureStdout();
     pm.show();

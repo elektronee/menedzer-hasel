@@ -85,7 +85,7 @@ int PasswordManager::getSize() {
 
 void PasswordManager::show() {
     if (entries.empty()) {
-        cout << "Brak zapisanych haseł." << endl;
+        cout << "Brak zapisanych hasel" << endl;
         return;
     }
     cout << "HASLA" << endl;
