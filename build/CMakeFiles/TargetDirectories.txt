@@ -1,3 +1,0 @@
-C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/ManagerHasel.dir
-C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/edit_cache.dir
-C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/rebuild_cache.dir
