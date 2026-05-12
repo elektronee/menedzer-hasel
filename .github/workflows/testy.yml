@@ -1,0 +1,31 @@
+name: C++ Tests with GTest
+
+# Kiedy testy mają się uruchamiać? 
+# (Tutaj: przy każdym pushu oraz Pull Requeście na gałąź main)
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build-and-test:
+    # Wybieramy system operacyjny, na którym GitHub uruchomi testy (tu: Linux)
+    runs-on: ubuntu-latest
+
+    steps:
+    # Krok 1: Pobranie Twojego kodu z GitHuba na maszynę testową
+    - uses: actions/checkout@v3
+
+    # Krok 2: Konfiguracja CMake
+    - name: Configure CMake
+      run: cmake -S . -B build
+
+    # Krok 3: Kompilacja (budowanie)
+    - name: Build
+      run: cmake --build build
+
+    # Krok 4: Uruchomienie testów
+    - name: Run Tests
+      working-directory: ./build
+      run: ctest --output-on-failure
