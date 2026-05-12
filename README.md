@@ -1,1 +1,1 @@
-menedzerujemy haslo xdd
+menedzerujemy haslo
