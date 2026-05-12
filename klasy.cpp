@@ -7,7 +7,7 @@ using namespace std;
 //  HASZ
 string User::hashPassword(string u, string p) {
     string salt = "123lol654";
-    string saltedPassword = u + sol + p;
+    string saltedPassword = u + salt + p;
 
     stringstream ss;
 
@@ -19,7 +19,7 @@ string User::hashPassword(string u, string p) {
     }
     hash<string> bezpiecznyHasz;
     size_t wynikHaszowania = bezpiecznyHasz(saltedPassword);
-    ffor(int i = 0; i < 10000; i++) {
+    for(int i = 0; i < 10000; i++) {
         wynikHaszowania = bezpiecznyHasz(to_string(wynikHaszowania));
     }
     ss << hex << bezpiecznyHasz(p);
@@ -34,7 +34,7 @@ void User::registerUser(string u, string p) {
 }
 
 bool User::login(string u, string p) {
-    return (username == u && passwordHash == hashPassword(u, p));
+    return (username == u && passwordHash == hashPassword(u,p));
 }
 
 // PASSWORDMANAGER 
