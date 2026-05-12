@@ -1,0 +1,1 @@
+menedzerujemy haslo xdd
