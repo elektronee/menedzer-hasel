@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\ManagerHasel.dir\\main.cpp.obj -c C:\\Users\\Adam\\OneDrive\\Dokumenty\\menedzer-hasel\\main.cpp",
+  "file": "C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/main.cpp",
+  "output": "CMakeFiles/ManagerHasel.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\ManagerHasel.dir\\klasy.cpp.obj -c C:\\Users\\Adam\\OneDrive\\Dokumenty\\menedzer-hasel\\klasy.cpp",
+  "file": "C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/klasy.cpp",
+  "output": "CMakeFiles/ManagerHasel.dir/klasy.cpp.obj"
+}
+]

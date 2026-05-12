@@ -1,0 +1,2462 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "D:/MinGW/bin/mingw32-make.exe.com"
+    found: "D:/MinGW/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/4.3.2/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/ar.com"
+    found: "D:/MinGW/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/ranlib.com"
+    found: "D:/MinGW/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/strip.com"
+    found: "D:/MinGW/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/ld.com"
+    found: "D:/MinGW/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/nm.com"
+    found: "D:/MinGW/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/objdump.com"
+    found: "D:/MinGW/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/objcopy.com"
+    found: "D:/MinGW/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/readelf.com"
+    found: "D:/MinGW/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/dlltool.com"
+    found: "D:/MinGW/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/addr2line.com"
+    found: "D:/MinGW/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/tapi.com"
+      - "D:/MinGW/bin/tapi.exe"
+      - "D:/MinGW/bin/tapi"
+      - "D:/Microsoft VS Code/tapi.com"
+      - "D:/Microsoft VS Code/tapi.exe"
+      - "D:/Microsoft VS Code/tapi"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Windows/SysWOW64/tapi.com"
+      - "C:/Windows/SysWOW64/tapi.exe"
+      - "C:/Windows/SysWOW64/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/SysWOW64/wbem/tapi.com"
+      - "C:/Windows/SysWOW64/wbem/tapi.exe"
+      - "C:/Windows/SysWOW64/wbem/tapi"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/SysWOW64/OpenSSH/tapi.com"
+      - "C:/Windows/SysWOW64/OpenSSH/tapi.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "D:/tapi.com"
+      - "D:/tapi.exe"
+      - "D:/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/tapi.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/tapi.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/tapi"
+      - "D:/Microsoft VS Code/bin/tapi.com"
+      - "D:/Microsoft VS Code/bin/tapi.exe"
+      - "D:/Microsoft VS Code/bin/tapi"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/tapi.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/tapi.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-11.2"
+      - "gcc-ar-11"
+      - "gcc-ar11"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/gcc-ar-11.2.com"
+      - "D:/MinGW/bin/gcc-ar-11.2.exe"
+      - "D:/MinGW/bin/gcc-ar-11.2"
+      - "D:/Microsoft VS Code/gcc-ar-11.2.com"
+      - "D:/Microsoft VS Code/gcc-ar-11.2.exe"
+      - "D:/Microsoft VS Code/gcc-ar-11.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11.2"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11.2.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11.2.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11.2"
+      - "C:/Windows/SysWOW64/gcc-ar-11.2.com"
+      - "C:/Windows/SysWOW64/gcc-ar-11.2.exe"
+      - "C:/Windows/SysWOW64/gcc-ar-11.2"
+      - "C:/Windows/gcc-ar-11.2.com"
+      - "C:/Windows/gcc-ar-11.2.exe"
+      - "C:/Windows/gcc-ar-11.2"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11.2.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11.2.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11.2"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11.2.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11.2.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11.2"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11.2.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11.2.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11.2"
+      - "C:/Program Files/dotnet/gcc-ar-11.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-11.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-11.2"
+      - "D:/gcc-ar-11.2.com"
+      - "D:/gcc-ar-11.2.exe"
+      - "D:/gcc-ar-11.2"
+      - "C:/Program Files/Git/cmd/gcc-ar-11.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-11.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-11.2"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11.2.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11.2.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11.2"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11.2.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11.2.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11.2"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11.2.com"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11.2.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11.2"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11.2.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11.2.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11.2"
+      - "D:/MinGW/bin/gcc-ar-11.com"
+      - "D:/MinGW/bin/gcc-ar-11.exe"
+      - "D:/MinGW/bin/gcc-ar-11"
+      - "D:/Microsoft VS Code/gcc-ar-11.com"
+      - "D:/Microsoft VS Code/gcc-ar-11.exe"
+      - "D:/Microsoft VS Code/gcc-ar-11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11"
+      - "C:/Windows/SysWOW64/gcc-ar-11.com"
+      - "C:/Windows/SysWOW64/gcc-ar-11.exe"
+      - "C:/Windows/SysWOW64/gcc-ar-11"
+      - "C:/Windows/gcc-ar-11.com"
+      - "C:/Windows/gcc-ar-11.exe"
+      - "C:/Windows/gcc-ar-11"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11"
+      - "C:/Program Files/dotnet/gcc-ar-11.com"
+      - "C:/Program Files/dotnet/gcc-ar-11.exe"
+      - "C:/Program Files/dotnet/gcc-ar-11"
+      - "D:/gcc-ar-11.com"
+      - "D:/gcc-ar-11.exe"
+      - "D:/gcc-ar-11"
+      - "C:/Program Files/Git/cmd/gcc-ar-11.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-11.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-11"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11.com"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11"
+      - "D:/MinGW/bin/gcc-ar11.com"
+      - "D:/MinGW/bin/gcc-ar11.exe"
+      - "D:/MinGW/bin/gcc-ar11"
+      - "D:/Microsoft VS Code/gcc-ar11.com"
+      - "D:/Microsoft VS Code/gcc-ar11.exe"
+      - "D:/Microsoft VS Code/gcc-ar11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar11"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar11.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar11.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar11"
+      - "C:/Windows/SysWOW64/gcc-ar11.com"
+      - "C:/Windows/SysWOW64/gcc-ar11.exe"
+      - "C:/Windows/SysWOW64/gcc-ar11"
+      - "C:/Windows/gcc-ar11.com"
+      - "C:/Windows/gcc-ar11.exe"
+      - "C:/Windows/gcc-ar11"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar11.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar11.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar11"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar11.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar11.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar11"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar11.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar11.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar11"
+      - "C:/Program Files/dotnet/gcc-ar11.com"
+      - "C:/Program Files/dotnet/gcc-ar11.exe"
+      - "C:/Program Files/dotnet/gcc-ar11"
+      - "D:/gcc-ar11.com"
+      - "D:/gcc-ar11.exe"
+      - "D:/gcc-ar11"
+      - "C:/Program Files/Git/cmd/gcc-ar11.com"
+      - "C:/Program Files/Git/cmd/gcc-ar11.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar11"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar11.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar11.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar11"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar11.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar11.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar11"
+      - "D:/Microsoft VS Code/bin/gcc-ar11.com"
+      - "D:/Microsoft VS Code/bin/gcc-ar11.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ar11"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar11.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar11.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar11"
+      - "D:/MinGW/bin/gcc-ar.com"
+    found: "D:/MinGW/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-11.2"
+      - "gcc-ranlib-11"
+      - "gcc-ranlib11"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/gcc-ranlib-11.2.com"
+      - "D:/MinGW/bin/gcc-ranlib-11.2.exe"
+      - "D:/MinGW/bin/gcc-ranlib-11.2"
+      - "D:/Microsoft VS Code/gcc-ranlib-11.2.com"
+      - "D:/Microsoft VS Code/gcc-ranlib-11.2.exe"
+      - "D:/Microsoft VS Code/gcc-ranlib-11.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11.2"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11.2.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11.2.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11.2"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11.2.com"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11.2.exe"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11.2"
+      - "C:/Windows/gcc-ranlib-11.2.com"
+      - "C:/Windows/gcc-ranlib-11.2.exe"
+      - "C:/Windows/gcc-ranlib-11.2"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11.2.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11.2.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11.2"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11.2.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11.2.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11.2"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11.2.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11.2.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-11.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-11.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-11.2"
+      - "D:/gcc-ranlib-11.2.com"
+      - "D:/gcc-ranlib-11.2.exe"
+      - "D:/gcc-ranlib-11.2"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11.2"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11.2.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11.2.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11.2"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11.2.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11.2.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11.2"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11.2.com"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11.2.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11.2"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11.2.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11.2.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11.2"
+      - "D:/MinGW/bin/gcc-ranlib-11.com"
+      - "D:/MinGW/bin/gcc-ranlib-11.exe"
+      - "D:/MinGW/bin/gcc-ranlib-11"
+      - "D:/Microsoft VS Code/gcc-ranlib-11.com"
+      - "D:/Microsoft VS Code/gcc-ranlib-11.exe"
+      - "D:/Microsoft VS Code/gcc-ranlib-11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11.com"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11.exe"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11"
+      - "C:/Windows/gcc-ranlib-11.com"
+      - "C:/Windows/gcc-ranlib-11.exe"
+      - "C:/Windows/gcc-ranlib-11"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11"
+      - "C:/Program Files/dotnet/gcc-ranlib-11.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-11.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-11"
+      - "D:/gcc-ranlib-11.com"
+      - "D:/gcc-ranlib-11.exe"
+      - "D:/gcc-ranlib-11"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11.com"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11"
+      - "D:/MinGW/bin/gcc-ranlib11.com"
+      - "D:/MinGW/bin/gcc-ranlib11.exe"
+      - "D:/MinGW/bin/gcc-ranlib11"
+      - "D:/Microsoft VS Code/gcc-ranlib11.com"
+      - "D:/Microsoft VS Code/gcc-ranlib11.exe"
+      - "D:/Microsoft VS Code/gcc-ranlib11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib11"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib11.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib11.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib11"
+      - "C:/Windows/SysWOW64/gcc-ranlib11.com"
+      - "C:/Windows/SysWOW64/gcc-ranlib11.exe"
+      - "C:/Windows/SysWOW64/gcc-ranlib11"
+      - "C:/Windows/gcc-ranlib11.com"
+      - "C:/Windows/gcc-ranlib11.exe"
+      - "C:/Windows/gcc-ranlib11"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib11.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib11.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib11"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib11.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib11.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib11"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib11.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib11.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib11"
+      - "C:/Program Files/dotnet/gcc-ranlib11.com"
+      - "C:/Program Files/dotnet/gcc-ranlib11.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib11"
+      - "D:/gcc-ranlib11.com"
+      - "D:/gcc-ranlib11.exe"
+      - "D:/gcc-ranlib11"
+      - "C:/Program Files/Git/cmd/gcc-ranlib11.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib11.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib11"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib11.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib11.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib11"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib11.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib11.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib11"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib11.com"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib11.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib11"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib11.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib11.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib11"
+      - "D:/MinGW/bin/gcc-ranlib.com"
+    found: "D:/MinGW/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/MinGW/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/4.3.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-11.2"
+      - "gcc-ar-11"
+      - "gcc-ar11"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/gcc-ar-11.2.com"
+      - "D:/MinGW/bin/gcc-ar-11.2.exe"
+      - "D:/MinGW/bin/gcc-ar-11.2"
+      - "D:/Microsoft VS Code/gcc-ar-11.2.com"
+      - "D:/Microsoft VS Code/gcc-ar-11.2.exe"
+      - "D:/Microsoft VS Code/gcc-ar-11.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11.2"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11.2.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11.2.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11.2"
+      - "C:/Windows/SysWOW64/gcc-ar-11.2.com"
+      - "C:/Windows/SysWOW64/gcc-ar-11.2.exe"
+      - "C:/Windows/SysWOW64/gcc-ar-11.2"
+      - "C:/Windows/gcc-ar-11.2.com"
+      - "C:/Windows/gcc-ar-11.2.exe"
+      - "C:/Windows/gcc-ar-11.2"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11.2.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11.2.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11.2"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11.2.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11.2.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11.2"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11.2.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11.2.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11.2"
+      - "C:/Program Files/dotnet/gcc-ar-11.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-11.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-11.2"
+      - "D:/gcc-ar-11.2.com"
+      - "D:/gcc-ar-11.2.exe"
+      - "D:/gcc-ar-11.2"
+      - "C:/Program Files/Git/cmd/gcc-ar-11.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-11.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-11.2"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11.2.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11.2.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11.2"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11.2.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11.2.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11.2"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11.2.com"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11.2.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11.2"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11.2.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11.2.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11.2"
+      - "D:/MinGW/bin/gcc-ar-11.com"
+      - "D:/MinGW/bin/gcc-ar-11.exe"
+      - "D:/MinGW/bin/gcc-ar-11"
+      - "D:/Microsoft VS Code/gcc-ar-11.com"
+      - "D:/Microsoft VS Code/gcc-ar-11.exe"
+      - "D:/Microsoft VS Code/gcc-ar-11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-11"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-11"
+      - "C:/Windows/SysWOW64/gcc-ar-11.com"
+      - "C:/Windows/SysWOW64/gcc-ar-11.exe"
+      - "C:/Windows/SysWOW64/gcc-ar-11"
+      - "C:/Windows/gcc-ar-11.com"
+      - "C:/Windows/gcc-ar-11.exe"
+      - "C:/Windows/gcc-ar-11"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar-11"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar-11"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar-11"
+      - "C:/Program Files/dotnet/gcc-ar-11.com"
+      - "C:/Program Files/dotnet/gcc-ar-11.exe"
+      - "C:/Program Files/dotnet/gcc-ar-11"
+      - "D:/gcc-ar-11.com"
+      - "D:/gcc-ar-11.exe"
+      - "D:/gcc-ar-11"
+      - "C:/Program Files/Git/cmd/gcc-ar-11.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-11.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-11"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar-11"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar-11"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11.com"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ar-11"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar-11"
+      - "D:/MinGW/bin/gcc-ar11.com"
+      - "D:/MinGW/bin/gcc-ar11.exe"
+      - "D:/MinGW/bin/gcc-ar11"
+      - "D:/Microsoft VS Code/gcc-ar11.com"
+      - "D:/Microsoft VS Code/gcc-ar11.exe"
+      - "D:/Microsoft VS Code/gcc-ar11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar11"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar11.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar11.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar11"
+      - "C:/Windows/SysWOW64/gcc-ar11.com"
+      - "C:/Windows/SysWOW64/gcc-ar11.exe"
+      - "C:/Windows/SysWOW64/gcc-ar11"
+      - "C:/Windows/gcc-ar11.com"
+      - "C:/Windows/gcc-ar11.exe"
+      - "C:/Windows/gcc-ar11"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar11.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar11.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ar11"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar11.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar11.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ar11"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar11.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar11.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ar11"
+      - "C:/Program Files/dotnet/gcc-ar11.com"
+      - "C:/Program Files/dotnet/gcc-ar11.exe"
+      - "C:/Program Files/dotnet/gcc-ar11"
+      - "D:/gcc-ar11.com"
+      - "D:/gcc-ar11.exe"
+      - "D:/gcc-ar11"
+      - "C:/Program Files/Git/cmd/gcc-ar11.com"
+      - "C:/Program Files/Git/cmd/gcc-ar11.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar11"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar11.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar11.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ar11"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar11.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar11.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ar11"
+      - "D:/Microsoft VS Code/bin/gcc-ar11.com"
+      - "D:/Microsoft VS Code/bin/gcc-ar11.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ar11"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar11.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar11.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ar11"
+      - "D:/MinGW/bin/gcc-ar.com"
+    found: "D:/MinGW/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-11.2"
+      - "gcc-ranlib-11"
+      - "gcc-ranlib11"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+    searched_directories:
+      - "D:/MinGW/bin/gcc-ranlib-11.2.com"
+      - "D:/MinGW/bin/gcc-ranlib-11.2.exe"
+      - "D:/MinGW/bin/gcc-ranlib-11.2"
+      - "D:/Microsoft VS Code/gcc-ranlib-11.2.com"
+      - "D:/Microsoft VS Code/gcc-ranlib-11.2.exe"
+      - "D:/Microsoft VS Code/gcc-ranlib-11.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11.2"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11.2.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11.2.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11.2"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11.2.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11.2.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11.2"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11.2.com"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11.2.exe"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11.2"
+      - "C:/Windows/gcc-ranlib-11.2.com"
+      - "C:/Windows/gcc-ranlib-11.2.exe"
+      - "C:/Windows/gcc-ranlib-11.2"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11.2.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11.2.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11.2"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11.2.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11.2.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11.2"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11.2.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11.2.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-11.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-11.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-11.2"
+      - "D:/gcc-ranlib-11.2.com"
+      - "D:/gcc-ranlib-11.2.exe"
+      - "D:/gcc-ranlib-11.2"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11.2"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11.2.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11.2.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11.2"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11.2.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11.2.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11.2"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11.2.com"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11.2.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11.2"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11.2.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11.2.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11.2"
+      - "D:/MinGW/bin/gcc-ranlib-11.com"
+      - "D:/MinGW/bin/gcc-ranlib-11.exe"
+      - "D:/MinGW/bin/gcc-ranlib-11"
+      - "D:/Microsoft VS Code/gcc-ranlib-11.com"
+      - "D:/Microsoft VS Code/gcc-ranlib-11.exe"
+      - "D:/Microsoft VS Code/gcc-ranlib-11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-11"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-11"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11.com"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11.exe"
+      - "C:/Windows/SysWOW64/gcc-ranlib-11"
+      - "C:/Windows/gcc-ranlib-11.com"
+      - "C:/Windows/gcc-ranlib-11.exe"
+      - "C:/Windows/gcc-ranlib-11"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib-11"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib-11"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib-11"
+      - "C:/Program Files/dotnet/gcc-ranlib-11.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-11.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-11"
+      - "D:/gcc-ranlib-11.com"
+      - "D:/gcc-ranlib-11.exe"
+      - "D:/gcc-ranlib-11"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-11"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-11"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib-11"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11.com"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib-11"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib-11"
+      - "D:/MinGW/bin/gcc-ranlib11.com"
+      - "D:/MinGW/bin/gcc-ranlib11.exe"
+      - "D:/MinGW/bin/gcc-ranlib11"
+      - "D:/Microsoft VS Code/gcc-ranlib11.com"
+      - "D:/Microsoft VS Code/gcc-ranlib11.exe"
+      - "D:/Microsoft VS Code/gcc-ranlib11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib11"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib11.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib11.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib11"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib11.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib11.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib11"
+      - "C:/Windows/SysWOW64/gcc-ranlib11.com"
+      - "C:/Windows/SysWOW64/gcc-ranlib11.exe"
+      - "C:/Windows/SysWOW64/gcc-ranlib11"
+      - "C:/Windows/gcc-ranlib11.com"
+      - "C:/Windows/gcc-ranlib11.exe"
+      - "C:/Windows/gcc-ranlib11"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib11.com"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib11.exe"
+      - "C:/Windows/SysWOW64/wbem/gcc-ranlib11"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib11.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib11.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/gcc-ranlib11"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib11.com"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib11.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/gcc-ranlib11"
+      - "C:/Program Files/dotnet/gcc-ranlib11.com"
+      - "C:/Program Files/dotnet/gcc-ranlib11.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib11"
+      - "D:/gcc-ranlib11.com"
+      - "D:/gcc-ranlib11.exe"
+      - "D:/gcc-ranlib11"
+      - "C:/Program Files/Git/cmd/gcc-ranlib11.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib11.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib11"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib11.com"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib11.exe"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/gcc-ranlib11"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib11.com"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib11.exe"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/gcc-ranlib11"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib11.com"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib11.exe"
+      - "D:/Microsoft VS Code/bin/gcc-ranlib11"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib11.com"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib11.exe"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/gcc-ranlib11"
+      - "D:/MinGW/bin/gcc-ranlib.com"
+    found: "D:/MinGW/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "D:/Microsoft VS Code/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "D:/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Adam/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/PyCharm Community Edition 2022.3.1/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/Adam/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/CMake/sbin/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files (x86)/ManagerHasel/bin/"
+      - "C:/Program Files (x86)/ManagerHasel/sbin/"
+      - "C:/Program Files (x86)/ManagerHasel/"
+    searched_directories:
+      - "D:/MinGW/bin/windres.com"
+    found: "D:/MinGW/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\MinGW\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Adam\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\PyCharm Community Edition 2022.3.1\\bin"
+        - "D:\\MinGW\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Adam\\AppData\\Local\\Muse Hub\\lib"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ManagerHasel"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files (x86)/ManagerHasel"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-5gx0gn"
+      binary: "C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-5gx0gn"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-5gx0gn'
+        
+        Run Build Command(s): "C:/Program Files (x86)/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_2a5df/fast
+        D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2a5df.dir\\build.make CMakeFiles/cmTC_2a5df.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-5gx0gn'
+        Building C object CMakeFiles/cmTC_2a5df.dir/CMakeCCompilerABI.c.obj
+        D:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\MinGW\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2a5df.dir\\'
+         d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_2a5df.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Adam\\AppData\\Local\\Temp\\ccvwKbki.s
+        GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+        ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+         d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+         d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: aa5e9286a0fcea872ab39015bc6bba0c
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2a5df.dir\\'
+         d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Adam\\AppData\\Local\\Temp\\ccvwKbki.s
+        GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+        COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_2a5df.exe
+        "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2a5df.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=D:\\MinGW\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.2.0 (GCC) 
+        COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2a5df.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2a5df.'
+         d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Adam\\AppData\\Local\\Temp\\ccaRkkLu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_2a5df.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2a5df.dir/objects.a --no-whole-archive --out-implib libcmTC_2a5df.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+        collect2 version 11.2.0
+        d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Adam\\AppData\\Local\\Temp\\ccaRkkLu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_2a5df.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2a5df.dir/objects.a --no-whole-archive --out-implib libcmTC_2a5df.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.37
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2a5df.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2a5df.'
+        "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2a5df.dir/objects.a
+        D:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_2a5df.dir/objects.a @CMakeFiles\\cmTC_2a5df.dir\\objects1.rsp
+        D:\\MinGW\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_2a5df.dir/objects.a -Wl,--no-whole-archive -o cmTC_2a5df.exe -Wl,--out-implib,libcmTC_2a5df.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-5gx0gn'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+          add: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+          add: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+        collapse include dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+        collapse include dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/MinGW/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/MinGW/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-5gx0gn']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files (x86)/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_2a5df/fast]
+        ignore line: [D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2a5df.dir\\build.make CMakeFiles/cmTC_2a5df.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-5gx0gn']
+        ignore line: [Building C object CMakeFiles/cmTC_2a5df.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\MinGW\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2a5df.dir\\']
+        ignore line: [ d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_2a5df.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Adam\\AppData\\Local\\Temp\\ccvwKbki.s]
+        ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: aa5e9286a0fcea872ab39015bc6bba0c]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2a5df.dir\\']
+        ignore line: [ d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Adam\\AppData\\Local\\Temp\\ccvwKbki.s]
+        ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+        ignore line: [COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [d:/mingw/bin/../libexec/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [d:/mingw/bin/../lib/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2a5df.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_2a5df.exe]
+        ignore line: ["C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2a5df.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\MinGW\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [d:/mingw/bin/../libexec/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [d:/mingw/bin/../lib/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2a5df.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2a5df.']
+        link line: [ d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Adam\\AppData\\Local\\Temp\\ccaRkkLu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_2a5df.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2a5df.dir/objects.a --no-whole-archive --out-implib libcmTC_2a5df.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+          arg [d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Adam\\AppData\\Local\\Temp\\ccaRkkLu.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/temp/gcc/dest] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_2a5df.exe] ==> ignore
+          arg [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+          arg [-Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+          arg [-Ld:/mingw/bin/../lib/gcc] ==> dir [d:/mingw/bin/../lib/gcc]
+          arg [-Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+          arg [-Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_2a5df.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_2a5df.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        ignore line: [collect2 version 11.2.0]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Adam\\AppData\\Local\\Temp\\ccaRkkLu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_2a5df.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2a5df.dir/objects.a --no-whole-archive --out-implib libcmTC_2a5df.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        linker tool for 'C': d:/mingw/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/MinGW/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+        collapse obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        collapse library dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0]
+        collapse library dir [d:/mingw/bin/../lib/gcc] ==> [D:/MinGW/lib/gcc]
+        collapse library dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [D:/MinGW/lib]
+        collapse library dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [D:/MinGW/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [D:/MinGW/x86_64-w64-mingw32/lib/crt2.o;D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        implicit dirs: [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0;D:/MinGW/lib/gcc;D:/MinGW/x86_64-w64-mingw32/lib;D:/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "d:/mingw/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.37
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-zpigm7"
+      binary: "C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-zpigm7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-zpigm7'
+        
+        Run Build Command(s): "C:/Program Files (x86)/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a05be/fast
+        D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a05be.dir\\build.make CMakeFiles/cmTC_a05be.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-zpigm7'
+        Building CXX object CMakeFiles/cmTC_a05be.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:\\MinGW\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a05be.dir\\'
+         d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_a05be.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Adam\\AppData\\Local\\Temp\\ccWZ3x53.s
+        GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+        ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+        ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0
+         d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32
+         d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward
+         d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+         d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+         d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 0020e270c5508fbf7dab225494ee95ff
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a05be.dir\\'
+         d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Adam\\AppData\\Local\\Temp\\ccWZ3x53.s
+        GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+        COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a05be.exe
+        "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a05be.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=D:\\MinGW\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.2.0 (GCC) 
+        COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a05be.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a05be.'
+         d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Adam\\AppData\\Local\\Temp\\ccqzoTVf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_a05be.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a05be.dir/objects.a --no-whole-archive --out-implib libcmTC_a05be.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+        collect2 version 11.2.0
+        d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Adam\\AppData\\Local\\Temp\\ccqzoTVf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_a05be.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a05be.dir/objects.a --no-whole-archive --out-implib libcmTC_a05be.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.37
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a05be.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a05be.'
+        "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a05be.dir/objects.a
+        D:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_a05be.dir/objects.a @CMakeFiles\\cmTC_a05be.dir\\objects1.rsp
+        D:\\MinGW\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_a05be.dir/objects.a -Wl,--no-whole-archive -o cmTC_a05be.exe -Wl,--out-implib,libcmTC_a05be.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-zpigm7'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0]
+          add: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32]
+          add: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward]
+          add: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+          add: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+          add: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0] ==> [D:/MinGW/include/c++/11.2.0]
+        collapse include dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32] ==> [D:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32]
+        collapse include dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward] ==> [D:/MinGW/include/c++/11.2.0/backward]
+        collapse include dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+        collapse include dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+        collapse include dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/MinGW/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/MinGW/include/c++/11.2.0;D:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32;D:/MinGW/include/c++/11.2.0/backward;D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/MinGW/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-zpigm7']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files (x86)/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a05be/fast]
+        ignore line: [D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a05be.dir\\build.make CMakeFiles/cmTC_a05be.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Adam/OneDrive/Dokumenty/menedzer-hasel/build/CMakeFiles/CMakeScratch/TryCompile-zpigm7']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a05be.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\MinGW\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a05be.dir\\']
+        ignore line: [ d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_a05be.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Adam\\AppData\\Local\\Temp\\ccWZ3x53.s]
+        ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/temp/gcc/destC:/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/temp/gcc/dest/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+        ignore line: [ d:\\mingw\\bin\\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 0020e270c5508fbf7dab225494ee95ff]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a05be.dir\\']
+        ignore line: [ d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Adam\\AppData\\Local\\Temp\\ccWZ3x53.s]
+        ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+        ignore line: [COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [d:/mingw/bin/../libexec/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [d:/mingw/bin/../lib/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a05be.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a05be.exe]
+        ignore line: ["C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a05be.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\MinGW\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/c/temp/gcc/dest --with-sysroot=/c/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw --disable-bootstrap]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [d:/mingw/bin/../libexec/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+        ignore line: [d:/mingw/bin/../lib/gcc/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a05be.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a05be.']
+        link line: [ d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Adam\\AppData\\Local\\Temp\\ccqzoTVf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_a05be.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a05be.dir/objects.a --no-whole-archive --out-implib libcmTC_a05be.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+          arg [d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Adam\\AppData\\Local\\Temp\\ccqzoTVf.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/temp/gcc/dest] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_a05be.exe] ==> ignore
+          arg [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+          arg [-Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+          arg [-Ld:/mingw/bin/../lib/gcc] ==> dir [d:/mingw/bin/../lib/gcc]
+          arg [-Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+          arg [-Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_a05be.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_a05be.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        ignore line: [collect2 version 11.2.0]
+        ignore line: [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Adam\\AppData\\Local\\Temp\\ccqzoTVf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_a05be.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a05be.dir/objects.a --no-whole-archive --out-implib libcmTC_a05be.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        linker tool for 'CXX': d:/mingw/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/MinGW/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+        collapse obj [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        collapse library dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0]
+        collapse library dir [d:/mingw/bin/../lib/gcc] ==> [D:/MinGW/lib/gcc]
+        collapse library dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [D:/MinGW/lib]
+        collapse library dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/MinGW/x86_64-w64-mingw32/lib]
+        collapse library dir [d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [D:/MinGW/lib]
+        implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [D:/MinGW/x86_64-w64-mingw32/lib/crt2.o;D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+        implicit dirs: [D:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0;D:/MinGW/lib/gcc;D:/MinGW/x86_64-w64-mingw32/lib;D:/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "d:/mingw/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.37
+...

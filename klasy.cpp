@@ -38,8 +38,13 @@ void PasswordManager::add(string service, string login, string password) {
 void PasswordManager::save(string filename) {
     ofstream file(filename);
     if (file.is_open()) {
+        char klucz = 0x5A; 
         for (string entry : entries) {
-            file << entry << "\n";
+            string zaszyfrowanyWpis = entry;
+            for (int i = 0; i < zaszyfrowanyWpis.length(); i++) {
+                zaszyfrowanyWpis[i] = zaszyfrowanyWpis[i] ^ klucz;
+            }
+            file << zaszyfrowanyWpis << "\n";
         }
         file.close();
     }
@@ -50,8 +55,15 @@ void PasswordManager::load(string filename) {
     if (file.is_open()) {
         entries.clear();
         string line;
+        char klucz = 0x5A; 
+        
         while (getline(file, line)) {
-            entries.push_back(line);
+            string odszyfrowanyWpis = line;
+                        for (int i = 0; i < odszyfrowanyWpis.length(); i++) {
+                odszyfrowanyWpis[i] = odszyfrowanyWpis[i] ^ klucz;
+            }
+            
+            entries.push_back(odszyfrowanyWpis);
         }
         file.close();
     }
