@@ -4,7 +4,6 @@
 #include <iomanip>
 #include <iostream>
 using namespace std;
-// TEST TEST TEST
 //  HASZ
 string User::hashPassword(string p) {
     stringstream ss;
