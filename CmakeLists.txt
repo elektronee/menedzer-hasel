@@ -1,0 +1,12 @@
+# Minimalna wymagana wersja CMake
+cmake_minimum_required(VERSION 3.10)
+
+# Nazwa Twojego projektu
+project(ManagerHasel)
+
+# Ustawienie standardu C++ (np. C++17, żeby bez problemu działały nowsze funkcje)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Definicja pliku wykonywalnego (nazwa programu oraz lista plików źródłowych)
+add_executable(ManagerHasel main.cpp klasy.cpp klasy.h)
